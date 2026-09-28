@@ -1,0 +1,44 @@
+# ROS 2 generated files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ROS / RViz
+.ros/
+.rviz2/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Credentials / local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Local workspace / machine-specific files
+.bash_history
+.Xauthority
+
+# Never commit SSH credentials
+.ssh/
