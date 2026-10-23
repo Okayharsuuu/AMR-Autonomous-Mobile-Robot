@@ -1,4 +1,4 @@
-# ROS 2 generated files
+# colcon build outputs (any workspace)
 build/
 install/
 log/
@@ -7,23 +7,23 @@ log/
 __pycache__/
 *.py[cod]
 *.egg-info/
+.pytest_cache/
 
 # ROS / RViz
 .ros/
 .rviz2/
 
-# IDE / editor
+# editors / OS
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS files
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs (the recorded run logs from the iteration phase are kept on purpose)
 *.log
+!learning/iteration-phase/amr_logs/*.log
 
 # Temporary files
 *.tmp
@@ -35,10 +35,11 @@ Thumbs.db
 .env.*
 *.key
 *.pem
+.ssh/
+
+# ESP32 Wi-Fi credentials (copy secrets.example.h to secrets.h)
+secrets.h
 
 # Local workspace / machine-specific files
 .bash_history
 .Xauthority
-
-# Never commit SSH credentials
-.ssh/
