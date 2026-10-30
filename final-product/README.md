@@ -21,6 +21,7 @@ One command starts the whole robot:
 | Calibration and tuning notes | [docs/calibration.md](docs/calibration.md) |
 | Known issues log | [docs/known-issues.md](docs/known-issues.md) |
 | Project presentation (slides: stack, diagrams, data) | [docs/presentation/AMR_Project_Presentation.pptx](docs/presentation/AMR_Project_Presentation.pptx) |
+| Project introduction slides (architecture overview from the seniors' kickoff deck) | [docs/presentation/intro-slides/](docs/presentation/intro-slides/README.md) |
 | Demo videos | [demo-videos/](demo-videos/README.md) |
 | CAD models | [cad/](cad/README.md) |
 | How we got here (iterations, approaches tried, test videos) | [../learning/](../learning/README.md) |

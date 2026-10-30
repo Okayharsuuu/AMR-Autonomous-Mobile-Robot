@@ -2,6 +2,8 @@
 
 From the whole system down to individual functions and wires. The diagrams are Mermaid and render on GitHub.
 
+The original architecture overview slides that introduced the project are in [presentation/intro-slides](presentation/intro-slides/README.md).
+
 1. [System level](#1-system-level)
 2. [ROS 2 graph on the Raspberry Pi](#2-ros-2-graph-on-the-raspberry-pi)
 3. [TF tree](#3-tf-tree)
